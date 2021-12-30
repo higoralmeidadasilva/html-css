@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+        #   = id
+        .   = class
+        :   = pseudo-class
+        ::  = pseudo-element
+        >   = children
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: brown;
+            text-decoration: none;
+            font-weight: bolder;
+            padding: 0.4px;
+            border-radius: 3px;
+        }
+        a:visited {
+            color: rgb(146, 45, 45);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+            padding: 0.4px;
+            border-radius: 3px;
+        }
+
+        a:active {
+            color: crimson;
+        }
+        a::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(238, 232, 232);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/results?search_query=animation+reel" target="_blank">YouTube</a></li>
+        <li><a href="https://www.instagram.com/_big0de_/" target="_blank">Instagram</a></li>
+        <li><a href="https://br.pinterest.com/The_Sketch_Man/_saved/" target="_blank">Pinterest</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* 
+Medidas Absolutas
+cm, mm, in, px, pt, pc
+Medidas Relativas
+em, ex, rem, vw, vh, %
+*/
+body {
+    background-color: gray;
+}
+/*shorthand
+-font-style -> font-weight -> font-size -> font-famaly
+font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+*/
+
+h1 {
+    font: normal bold 2em Arial ;
+}
+
+h2 {
+    font: italic bolder 2em Arial
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'OpenSansCondensed';
+    src: url('fonts/OpenSansCondensed-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family:'OpenSansCondensed' ;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+p {
+    font-size: 23px;
+    text-align: justify;
+    text-indent: 30px;
+    font-weight: normal;
+}
+main {
+    background-color: rgb(248, 250, 232);
+    width: 600px;
+    padding: 30px;
+   /* margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #48534dc2;
+}
